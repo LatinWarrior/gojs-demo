@@ -71,7 +71,7 @@ var MINBREADTH = 20;  // this controls the minimum breadth of any non-collapsed 
             ),
             // with the textual key in the middle
             $(go.TextBlock,
-                { alignment: go.Spot.Center,
+                { alignment: go.Spot.Center, editable: true, isMultiline: false,
                     font: 'bold 16px arial, helvetica, sans-serif' },
                 new go.Binding("text", "key", function (v) {
                     return v;
