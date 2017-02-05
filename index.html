@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+<div class="row">
+    <div id="leftPalette" class="col-md-2" style="border: solid 1px black; height: 400px"></div>
+    <div id="centerDiagram" class="col-md-10" style="border: solid 1px black; height:400px"></div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+            Diagram Model saved in JSON format, automatically updated after each transaction:
+            <pre id="savedModel" style="height:250px" class=" hljs "></pre>
+    </div>
+</div>
+
+    <script src="node_modules/gojs/release/go-debug.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/angular/angular.js"></script>
+<script src="node_modules/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<script src="app/js/app.module.js"></script>
+<script src="app/js/planogram-area.js"></script>
+<script src="app/js/app.js"></script>
+</body>
+</html>

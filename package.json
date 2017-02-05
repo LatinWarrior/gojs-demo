@@ -1,0 +1,27 @@
+{
+  "name": "planogram",
+  "version": "1.0.0",
+  "description": "gojs AngularJS",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "lite": "lite-server"
+  },
+  "keywords": [
+    "goJS",
+    "AngularJS"
+  ],
+  "author": "Luis Blanco",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  },
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-bootstrap": "^0.12.2",
+    "bootstrap": "^3.3.7",
+    "gojs": "^1.6.23",
+    "jquery": "^3.1.1"
+  }
+}
